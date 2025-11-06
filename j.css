@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "pro";
+    text-align: center;
+}
+#myButton{
+        font-size: 3em;
+}
+#myLabel{
+        font-size: 3em;
+}
+@font-face {
+    font-family: "pro";
+    src: url(../AnonymousPro-Regular.ttf);
+}

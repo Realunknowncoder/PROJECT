@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+#countlabel{
+    font-size: 10em;
+    display: block;
+    font-family: Helvetica,arial,sans-serif;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+}

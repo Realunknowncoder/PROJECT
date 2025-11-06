@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "pro", Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(193, 193, 193);
+}
+h1{
+color: rgb(82, 129, 141);
+}
+
+form{
+    background-color: aliceblue;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px5px 15px hsl(0, 0%, 0% 0.3);
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px double black;
+    border-radius: 5px;
+}
+label{
+    font-size: 1.5em;
+}
+button{
+    margin-top: 15px;
+    background-color: hsl(0, 100%, 60%);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  hsl(0, 100%, 50%);;
+}
+p{
+    font-size: 1.75em;
+}
+@font-face {
+    font-family: "pro";
+    src: url(../font/Rowdies-Bold.ttf);
+}
